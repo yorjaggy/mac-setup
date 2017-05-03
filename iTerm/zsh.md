@@ -57,6 +57,10 @@ Install oh-my-zsh on top of zsh to get additional functionality
 if you're still in the default shell, change default shell to zsh manually
 
     chsh -s /usr/local/bin/zsh
+    
+if there are problems with the previous command try the following
+
+    chsh -s /bin/zsh
 
 edit the `.zshrc` by opening the file in a text editor
 
